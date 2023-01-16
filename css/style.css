@@ -1,8 +1,7 @@
 body {
-    display: flex;
-    margin-top: 50px;
+    display: grid;
     justify-content: center;
-    background-color: blue;
+    background-color: darkblue;
   }
   button {
     width: 75px;
@@ -17,7 +16,7 @@ body {
   
   #header {
     padding: 10px;
-    color: white;
+    color: black;
     font-size: 26px;
     font-family: sans-serif;
     display: flex;
@@ -32,14 +31,14 @@ body {
   #weekdays {
     width: 100%;
     display: flex;
-    color: white;
+    color: black;
   }
   #weekdays div {
     width: 100px;
     padding: 10px;
   }
   #calendar {
-    width: 100%;
+    width: auto;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
