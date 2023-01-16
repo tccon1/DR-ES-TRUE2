@@ -10,7 +10,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: white;
 }
 
 header h2 {
@@ -18,7 +18,7 @@ header h2 {
 }
 
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(lightblue, darkblue);
     padding: 20px 0;
 }
 
